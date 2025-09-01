@@ -153,7 +153,7 @@ public class MyJDBC {
         String sql = "UPDATE Days " +
                 "SET total_time = SUBTIME(total_time, '" + delta + "') " +
                 "WHERE day_date = '" + day.format(SQL_DATE) + "'";
-
+kjij
         statement.executeUpdate(sql);
 
     }
